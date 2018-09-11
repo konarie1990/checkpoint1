@@ -1,5 +1,5 @@
 body {
-  background-image: url(/images/burgerfries1.jpg);
+  background-image: url(https://github.com/konarie1990/checkpoint1/blob/master/images/burgerfries1.jpg?raw=true);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px 100px;
@@ -144,21 +144,21 @@ section {
   100% { left: 110%; opacity: 0; }
 }
 
-section img .burgertexmenu {
-  max-width: 600rem;
+.burgertexmenu {
+  position: relative;
+  max-width: 100%;
   height: auto;
 }
 
 
 footer {
   position: absolute;
-  width: auto;
-  height: 120px;
   background-color: #FFC535;
-  bottom: 20px;
+  bottom: 0;
   right: 0;
   left: 0;
   text-align: center;
+
 }
 
 footer p {
