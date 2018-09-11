@@ -144,7 +144,14 @@ section {
   100% { left: 110%; opacity: 0; }
 }
 
+section img .burgertexmenu {
+  max-width: 600rem;
+  height: auto;
+}
+
+
 footer {
+  position: absolute;
   width: auto;
   height: 120px;
   background-color: #FFC535;
