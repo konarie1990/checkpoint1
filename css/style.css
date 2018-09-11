@@ -2,11 +2,12 @@ body {
   background-image: url(/images/burgerfries1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
+  background-position: 0px 100px;
   height: auto;
   font-family: 'Lato', sans-serif;
   min-width: 400px;
 }
-
 
 header {
   background-color: #88130A;
@@ -21,7 +22,7 @@ header {
   border: 5px solid black;
 }
 
-.first-text img, .second-text img, .third-text img, .fourth-text img {
+.first-text img, .second-text img, .third-text img {
   width: 40%;
   position: absolute;
   top: 20px;
@@ -71,7 +72,76 @@ nav ul li {
   padding: 10px;
 }
 
+section {
+  width: auto;
+  height: 600px;
 
+}
+
+h1 {
+  color: black;
+  font-size: 7vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  background-color: rgba(255, 198, 53, 0.616);
+  border-radius: 5%;
+}
+
+.first-message h1, .second-message h1, .third-message h1 {
+  width: 50%;
+  position: absolute;
+  top: 38%;
+  display: inline-block;
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.first-message h1 {
+  animation-name: textanim-1;
+}
+
+.second-message h1 {
+  animation-name: textanim-2;
+}
+
+.third-message h1 {
+  animation-name: textanim-3;
+}
+
+@keyframes textanim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes textanim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes textanim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+footer {
+  width: auto;
+  height: 80px;
+  background-color: #FFC535;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 20px;
+
+}
 
 
 
