@@ -2,13 +2,13 @@ body {
   background-image: url(/images/burgerfries1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
   background-position: 0px 100px;
   height: auto;
   font-family: 'Lato', sans-serif;
   min-width: 400px;
 }
 
+/* scrolling text within section */
 h1 {
   color: black;
   font-size: 6vw;
@@ -18,6 +18,7 @@ h1 {
   border-radius: 5%;
 }
 
+/* make the links look kinda like little burgers */
 a {
   text-decoration: none;
   color: black;
@@ -27,6 +28,7 @@ a:hover {
   background-color: rgb(182, 144, 50);
   color: yellow;
   border-radius: 20%;
+  transition: background-color 0.5s ease;
 }
 
 header {
@@ -42,6 +44,7 @@ header {
   border: 5px solid black;
 }
 
+/* header animation display */
 .first-text img, .second-text img, .third-text img {
   width: 40%;
   position: absolute;
@@ -95,6 +98,7 @@ nav ul li {
   font-family: 'Wellfleet', cursive;
 }
 
+/* middle section scrolling text */
 section {
   width: auto;
   height: 600px;
@@ -142,12 +146,16 @@ section {
 
 footer {
   width: auto;
-  height: 80px;
+  height: 120px;
   background-color: #FFC535;
   bottom: 20px;
   right: 0;
   left: 0;
   text-align: center;
+}
+
+footer p {
+  font-size: 1.5vw;
 }
 
 footer ul li {
